@@ -24,7 +24,7 @@ p {
 }
 
 .bg-1 {
-    background-image: url("images/header1.jpg");
+    background-image: url("tree/master/images/header1.jpg");
     background-attachment: fixed;
     background-color:  #555555;
 }
