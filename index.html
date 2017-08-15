@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+    
+    <head>
+        <title>Aditya Arora</title>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                        <link rel="stylesheet" href="style.css">
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                            <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Aditya Arora</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#Skills">Skills</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="profile" class="container-fluid bg-1 text-center">
+            <h3 class="margin" style="color:#000000;">Aditya Arora</h3>
+            <img src="images/profilePicture.jpg" class="img-circle img-responsive margin" alt="me" style="display: inline">
+                <h3>A problem solver</h3>
+                </div>
+        
+        <div id="About" class="container-fluid bg-2 text-center">
+            <h3 class="margin">About</h3>
+            <p>I am a computer engineering student at the University of Waterloo with a keen interest in problem solving and software development. I am eager to put to work the programming knowledge I have acquired through self learning and personal-interest projects at a 4 month CO-OP placement this summer. Programming solutions to problems from LeetCode in Python is something I take pride in. </p>
+            <br>
+            <a href="https://github.com/arora-aditya" class="btn btn-default btn-lg"><span class="fa fa-github"></span> Github</a>
+            <a href="https://www.linkedin.com/in/arora-aditya/" class="btn btn-default btn-lg"><span class="fa fa-linkedin-square"></span> LinkedIn</a>
+            <a href="files/Aditya_Arora_CV.pdf" class="btn btn-default btn-lg"><span class="fa fa-download"></span> Resume</a>
+        </div>
+        
+        <div id="Experience" class="container-fluid bg-2 text-center">
+            <h3 class="margin">Experience</h3>
+            <b><h4 style="color:#4875B4;">Software Engineering Intern, FINO Payments Bank</h4></b>
+            <h4 style="color:#263987;">July 2017 - August 2017</h4>
+            <h4 style="color:#4875B4;">Data Visualisation and Analysis</h4>
+            <p>Implemented an interactive dashboard to analyse performance of top merchants and their sales breakdown
+            Also implemented a dashboard to track the performance of new merchants month on month. Analysed this data to predict merchants who had a better chance to increase the revenue.
+            Used d3js for the visualisation and Python for the back end.</p>
+        </div>
+        
+        <div id="projects" class="container-fluid bg-3 text-center">
+            <h3 class="margin">Projects</h3>
+            <div class="row">
+                <div class="col-sm-4">
+                </div>
+                <div class="col-sm-4">
+                    <b><a href="https://github.com/arora-aditya/monopoly"><h4 style="color:#4875B4;">Monopoly</h4></a></b>
+                    <p>This project implemented the board game with all of its bell and whistles in TurboC++ using just dashes and dots. </p>
+                    <br>
+                    <img src="images/logo.PNG" class="img-responsive" style="display:inline" alt="Image">
+                        <br>
+                </div>
+            </div>
+        </div>
+        
+        <div id="Skills" class="container-fluid bg-2 text-center">
+            <h3 class="margin">Skills</h3>
+            <button type="button" class="custombtn">HTML</button>
+            <button type="button" class="custombtn">CSS</button>
+            <button type="button" class="custombtn">Python</button>
+            <button type="button" class="custombtn">TurboC++</button>
+            <button type="button" class="custombtn">Javascript</button>
+            <button type="button" class="custombtn">SQL</button>
+        </div>
+        
+        <footer class="container-fluid bg-4 text-center">
+            <p>Created by Aditya Arora</p>
+        </footer>
+        
+        <script>
+            $(document).ready(function () {
+                              // Add scrollspy to <body>
+                              $('body').scrollspy({
+                                                  target: ".navbar",
+                                                  offset: 50
+                                                  });
+                              // Add smooth scrolling on all links inside the navbar
+                              $("#myNavbar a").on('click', function (event) {
+                                                  // Make sure this.hash has a value before overriding default behavior
+                                                  if (this.hash !== "") {
+                                                  // Prevent default anchor click behavior
+                                                  event.preventDefault();
+                                                  // Store hash
+                                                  var hash = this.hash;
+                                                  // Using jQuery's animate() method to add smooth page scroll
+                                                  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                                                  $('html, body').animate({
+                                                                          scrollTop: $(hash).offset().top
+                                                                          }, 800, function () {
+                                                                          // Add hash (#) to URL when done scrolling (default click behavior)
+                                                                          window.location.hash = hash;
+                                                                          });
+                                                  } // End if
+                                                  });
+                              });
+            </script>
+        
+    </body>
+    
+</html>
