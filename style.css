@@ -16,6 +16,12 @@ div.Waterloop, div.FINO{
   text-align: center;
   margin: 0 auto;
 }
+
+p.reformat{
+  max-width: 90%;
+  margin: 0% 5%;
+}
+
 .margin {
     margin-bottom: 45px;
 }
@@ -54,7 +60,7 @@ div.Waterloop, div.FINO{
 
 .container-fluid {
     padding-top: 70px;
-    padding-bottom: 90px;
+    padding-bottom: 30px;
 }
 
 footer{
