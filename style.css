@@ -1,3 +1,10 @@
+#introduction{
+    max-width: 90%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    text-align: center;
+    margin: 0 auto;
+}
 body {
     font: 20px "Montserrat", sans-serif;
     line-height: 1.8;
@@ -30,9 +37,7 @@ p.reformat{
 .custombtn{
     padding-left: 2.5%;
     padding-right: 2.5%;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-bottom: 2%;
+    margin: 1% 1%;
     background-color: #E1E9EE
     color: #555555;
 }
