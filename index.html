@@ -1,189 +1,188 @@
 <!DOCTYPE html>
-
-<html lang="en"><head>
+<html>
+<head>
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107346332-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments)};
-      gtag('js', new Date());
-
-      gtag('config', 'UA-107346332-1');
-    </script>
-
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MKJHXS4');</script>
+    <!-- Page-hiding snippet (recommended)  -->
+    <style>.async-hide { opacity: 0 !important} </style>
+    <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+    })(window,document.documentElement,'async-hide','dataLayer',4000,
+    {'GTM-KNC9WQ7':true});</script>
+    <!-- Modified Analytics tracking code with Optimize plugin -->
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-107346332-1', 'auto');
+        ga('require', 'GTM-KNC9WQ7');
+        ga('send', 'pageview');
+        </script>
     <!-- End Google Tag Manager -->
 
     <meta name="google-site-verification" content="lPK4CUGlV5KoSywcb0AOqrRPNNR3HfSNMXJgljY4FG8"/>
     <title>Aditya Arora</title>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="style.css"/>
+    <meta charset='utf-8'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/A2.png" type="img" />
+    <link rel="stylesheet" type="text/css" href="css/main.css"  >
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Martel:300|Montserrat" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/124f5f4c35.js"></script>
+    <link rel="shortcut icon" href="static_favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 </head>
 
-<body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKJHXS4"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <span itemscope itemtype="http://schema.org/Article">
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">
-                        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                            <span itemprop="name">Aditya Arora</span></span></a>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Profile</a></li>
-                        <li><a href="#About">About</a></li>
-                        <li><a href="#Experience">Experience</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#Skills">Skills</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div id="profile" class="container-fluid bg-1 text-center">
-            <h3 itemprop="name" class="margin" style="color:#000000;">Aditya Arora</h3>
-            <img src="/images/profilePicture.JPG" class="img-circle img-responsive margin" alt="me" style="display: inline"/>
-            <h3 style="color:#e9e7ec;">A problem solver</h3>
+<body class="slant">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKJHXS4"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+<div id="page-wrap">
+
+    <div class="clearfix">
+        <div class="col-xs-12 col-sm-6 col-m-6 col-xs-offset-0 col-sm-offset-1" style="padding-top: 200px;">
+            <h1 class="printing-text">Hello World!</h1>
+            <p class="header pad-s">My name is Aditya Arora</p>
+
+            <p class="body pad-s">
+                I'm a Web Co-Lead at
+                <a href="https://www.waterloop.ca" class="highlight" target="_blank">Waterloop</a>
+                , <i class="em em-maple_leaf"></i>'s Hyperloop team <i class="em em-bullettrain_side"></i>
+                I'm also a Computer Engineering Student at the University of
+                <a href="https://uwaterloo.ca/" class="highlight" target="_blank">Waterloo</a>
+                , graduating <i class="em em-mortar_board"></i> in May 2022.
+                <br>
+                <br>
+                I believe that transportation is on the verge of a drastic change
+                and Hyperloop <span class="cough-cough">*cough-cough Waterloop*</span> is going to be the new GO train
+                <i class="em em-train"></i>
+                <br>
+                <br>
+                I am eager to put to work the programming knowledge I have acquired through self learning and personal-interest projects at a 4 month co-op placement this summer
+            </p>
         </div>
+    </div>
+    <div class="clearfix pad-m">
 
-        <div id="About" class="container-fluid bg-2 text-center">
-            <h3 class="margin">About</h3>
-            <p id = "introduction">I am a computer engineering student at the University of Waterloo with a keen interest in problem solving and software development. I am eager to put to work the programming knowledge I have acquired through self learning and personal-interest projects at a 4 month CO-OP placement this summer. Programming solutions to problems from LeetCode in Python is something I take pride in. </p>
-            <br/>
-            <a href="https://github.com/arora-aditya" class="btn btn-default btn-lg"><span class="fa fa-github"></span> Github</a>
-            <a href="https://www.linkedin.com/in/arora-aditya/" class="btn btn-default btn-lg"><span class="fa fa-linkedin-square"></span> LinkedIn</a>
-            <a href="files/Resume.pdf" class="btn btn-default btn-lg"><span class="fa fa-download"></span> Resume</a>
-        </div>
+      <div class="col-sm-3 col-lg-3 col-xs-offset-0 col-sm-offset-1" >
+          <p><i class="fa fa-envelope-o" aria-hidden="true"></i> <a class="body underline" href="mailto:aditya.arora@uwaterloo.ca?subject=Saying%20Hello!">aditya.arora@uwaterloo.ca</a></p>
+      </div>
+      <div class="col-sm-2 col-lg-2  col-lg-offset-0">
+          <p><i class="fa fa-file-text-o" aria-hidden="true"></i> <a class="body underline" href="resume.pdf" target="_blank">resume.pdf</a></p>
+      </div>
+      <div class="col-sm-2 col-lg-2  col-lg-offset-0">
+          <p><i class="fa fa-linkedin" aria-hidden="true"></i> <a class="body underline" href="https://www.linkedin.com/in/arora-aditya" target="_blank">linkedin</a></p>
+      </div>
+    </div>
 
-        <div id="Experience" class="container-fluid bg-2 text-center">
-            <h3 class="margin">Experience</h3>
 
-            <div class = "Waterloop text-center">
-              <b><h4 style="color:#4875B4;">Software Developer, <a href = "http://teamwaterloop.ca/">Waterloop</a></h4></b>
-              <h4 style="color:#263987;">September 2017 - Present</h4>
-              <h4 style="color:#4875B4;">Embedded Systems and Software</h4>
-              <p class = "reformat">
-                - Collaborating as member of the team building the hyperloop pod as part of Elon Musk’s SpaceX competition<br />
-                - Member of the software sub-team that design and implement the embedded systems on the pod<br />
+    <div class="clearfix pad-m col-sm-offset-1">
+        <p class="header pad-s">Some of my previous experience</p>
+
+          <div class="col-xs-3 col-md-2">
+              <img class="img-responsive" src="images/wloop.png">
+          </div>
+          <div class="col-md-8 pad-s">
+              <p><span class="primary">Web Co-Lead, <a href="https://www.waterloop.ca" class="highlight" target="_blank">Waterloop</a></span>
+                  <br><span class="secondary">Waterloo, ON. September, 2017 - present.</span>
+                  <br><br><span class="body">
+                    - Minimized code duplication on the new website using a template engine that allowed for 30% page load boost while making it easier to maintain<br>
+                    - Improved page load time by 20% by creating vector images instead of using heavier and less efficient frameworks<br>
+                    - Implemented an efficient static string method to improve memory management as part of stint in the embedded systems team<br>
+                  </span>
               </p>
-            </div>
-            <br />
-            <br />
+          </div>
 
-            <div class = "FINO text-center">
-              <b><h4 style="color:#4875B4;">Software Engineering Intern, FINO Payments Bank</h4></b>
-              <h4 style="color:#263987;">July 2017 - August 2017</h4>
-              <h4 style="color:#4875B4;">Data Visualisation and Analysis</h4>
-              <p class = "reformat">
-                - Improved efficiency of backend script by 300 times by using hash tables and used this to implement an interactive dashboard to visualise revenue of top merchants and their sales breakdown<br />
-                - Conceptualised, designed and implemented a dashboard to track the performance of new merchants month on month to predict merchants who had a better chance to increase the revenue<br />
-                - Used d3js for the visualisation and Python for the back end.<br />
+
+
+          <div class="col-xs-3 col-md-2">
+              <img class="img-responsive" src="images/fino.png">
+          </div>
+          <div class="col-md-8 pad-s">
+              <p><span class="primary">Software Engineering Intern, <a href="http://www.finobank.com/" class="highlight" target="_blank">FINO Bank</a></span>
+                  <br><span class="secondary">Mumbai, India. Summer, 2017.</span>
+                  <br><br><span class="body">
+                    - Improved efficiency of backend script by 300 times by using hash tables and used this to implement an interactive dashboard to visualise revenue of top merchants and their sales breakdown<br>
+                    - Conceptualised, designed and implemented a dashboard to track the performance of new merchants month on month to predict merchants who had a better chance to increase the revenue<br>
+                    - Used d3js for the visualisation and Python for the back end.<br><br>
+                  </span>
               </p>
-            </div>
+          </div>
+
+    <div class="clearfix">
+        <div class="col-xs-12 col-sm-6 col-m-6 col-xs-offset-0 col-sm-offset-1">
+            <p class="header pad-s">Side Projects</p>
         </div>
-
-        <div id="projects" class="container-fluid bg-3 text-center">
-            <h3 class="margin">Projects</h3>
-            <div class="row top-buffer">
-                <div class="col-sm-6">
-                    <b><a href="https://github.com/ethwaterloo2017/whizzit"><h4 style="color:#4875B4;">whiZZit</h4></a></b>
-                    <p> StackOverflow but instead of asking a question and not getting an answer after months and months, you incentivize the answer. We connect you with experts on the topic of your question in exchange for a crytpocurrency bounty, 99% of which goes to the expert!
-                      <br /><b><a href="https://ethwaterloo.devpost.com/">Developed at EthWaterloo2017</a></b></p>
-                    <img src="/images/whiZZitlogo.png" class="img-responsive" style="display:inline" alt="whiZZit Logo"/>
-                    <br/>
-                    <br/>
-                </div>
-                <div class="col-sm-6">
-                    <b><a href="https://github.com/arora-aditya/leetcode"><h4 style="color:#4875B4;">LeetCode</h4></a></b>
-                    <p>LeetCode is a website that hosts a collection of various programming problems of various difficult levels.
-                      Although this isn't a project per se but it does the job of imporving my algorithmic thinking and makes me a
-                      better programmer.</p>
-                    <img src="/images/leetcode.png" class="img-responsive" style="display:inline" alt="LeetCode Logo"/>
-                    <br/>
-                    <br/>
+    </div>
+    <div class="clearfix pad-m">
+        <a href="/whiZZit">
+            <div class="col-md-3 pad-s hover-up">
+                <div class="box-shadow">
+                    <img src="images/whizzitLogoVertical.png" alt="whiZZit" style="width:100%;height:auto;">
+                    <div class="project-box">
+                        <p><span class="primary">whiZZit @ETHWaterloo</span>
+                            <br><span class="secondary">StackOverflow but with a cryptocurrency bounty <i class="em em-moneybag"></i></span></p>
+                    </div>
                 </div>
             </div>
-            <div class="row top-buffer">
-                <div class="col-sm-6">
-                    <b><a href="https://arora-aditya.github.io/speedReader/"><h4 style="color:#4875B4;">speedReader</h4></a></b>
-                    <p>This project, although still a work in progress, helps one read faster, up to 500 words per minute.
-                      The project is developed in d3js and HTML</p>
-                    <img src="/images/speedReader.png" class="img-responsive" style="display:inline" alt="LeetCode Logo"/>
-                    <br/>
-                    <br/>
-                </div>
-                <div class="col-sm-6">
-                    <b><a href="https://github.com/arora-aditya/2017"><h4 style="color:#4875B4;">BeerKart</h4></a></b>
-                    <p> Think UBER, but instead of people picking up and transporting other people, BeerKart lets people pick
-                      up empty bottles/cans from other people, and bring it to recycling facilities to properly dispose of it
-                      and make some money off it!
-                      <br /><b><a href="https://hackthenorth2017.devpost.com">Developed at HackTheNorth2017</a></b></p>
-                    <img src="/images/BeerKartLogo.png" class="img-responsive" style="display:inline" alt="BeerKart Logo"/>
-                    <br/>
-                    <br/>
+        </a>
+        <a href="/BeerKart">
+            <div class="col-md-3 pad-s hover-up">
+                <div class="box-shadow">
+                    <img src="images/BeerKart.png" alt="BeerKart" style="width:100%;height:auto;">
+                    <div class="project-box">
+                        <p>
+                            <span class="primary">BeerKart @HackTheNorth</span>
+                            <br>
+                            <span class="secondary">Built UBER for empty beer <i class="em em-beer"></i> bottles to promote recycling</span>
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="row top-buffer">
-                <div class="col-sm-3">
-                </div>
-                <div class="col-sm-6">
-                    <b><a href="https://github.com/arora-aditya/monopoly"><h4 style="color:#4875B4;">Monopoly</h4></a></b>
-                    <p>This project implemented the board game with all of its bell and whistles in TurboC++ using just dashes and dots. </p>
-                    <img src="/images/logo.png" class="img-responsive" style="display:inline" alt="Monopoly Logo"/>
-                    <br/>
-                    <br/>
-
-                </div>
-                <div class="col-sm-3">
+        </a>
+        <a href="/speedReader">
+            <div class="col-md-3 pad-s hover-up">
+                <div class="box-shadow">
+                    <img src="images/speedreader.png" alt="tryify" style="width:100%;height:auto;">
+                    <div class="project-box">
+                        <p>
+                            <span class="primary">speedReader</span>
+                            <br>
+                            <span class="secondary">
+                            Although still work in progress, helps one read books <i class="em em-book"></i> faster, up to 500 words per minute
+                            </span>
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </a>
+        <a href="/leetcode">
+            <div class="col-md-3 pad-s hover-up">
+                <div class="box-shadow">
+                    <img src="images/leetcode.png" alt="tryify" style="width:100%;height:auto;">
+                    <div class="project-box">
+                        <p>
+                            <span class="primary">LeetCode</span>
+                            <br>
+                            <span class="secondary">
+                                Although not a project per se but it does the job of making me a better programmer <i class="em em-computer"></i>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+  </div>
 
-        <div id="Skills" class="container-fluid bg-2 text-center">
-            <h3 class="margin">Skills</h3>
-            <button type="button" class="custombtn">HTML</button>
-            <button type="button" class="custombtn">CSS</button>
-            <button type="button" class="custombtn">Python</button>
-            <button type="button" class="custombtn">TurboC++</button>
-            <button type="button" class="custombtn">Javascript</button>
-            <button type="button" class="custombtn">SQL</button>
-        </div>
-
-        <footer class="bg-4 text-center">
-          <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><p itemprop="name">Created by Aditya Arora</p></span>
-          <br/>
-          <br/>
-          <p style="text-align:left; color:#666666;">MONOPOLY TM, ® & © 2011 Hasbro<br/>LeetCode logo owned by LeetCode</p>
-        </footer>
-        <meta itemprop="url" content="https://arora-aditya.github.io/">
-      </span>
-
-            <script></script>
-
-
-
-
+<div class="footer-bg">
+    <p class="xs-col-12 body footer">Interested in chatting? Drop me a message at <a class="body underline" href="mailto:aditya.arora@uwaterloo.ca?subject=Saying%20Hello!">aditya.arora@uwaterloo.ca</a>!</p>
+</div>
 </body>
+
 </html>
