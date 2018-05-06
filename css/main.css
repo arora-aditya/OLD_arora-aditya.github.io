@@ -8,6 +8,12 @@
     margin: 0 10px 20px 0;
 }
 
+.portrait {
+    position: absolute;
+    right: 0px;
+    top: 20%;
+}
+
 /*Emojis --------------------------------------------------------------*/
 @-webkit-keyframes typing { from { width: 0; } }
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
