@@ -63,6 +63,9 @@
      margin: 0 auto;
 }
 
+#bold {
+    font-weight: 1000 !important;
+}
 
 /*Fonts --------------------------------------------------------------*/
 @font-face {
